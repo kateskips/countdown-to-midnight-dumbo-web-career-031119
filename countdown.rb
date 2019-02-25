@@ -1,8 +1,8 @@
 require 'pry'
 
 def countdown(number)
-  while number > 0
-    puts "#{int} SECOND(S)!"
+  while number > 10
+    puts "#{number} SECOND(S)!"
      int -= 1
   end
 end
